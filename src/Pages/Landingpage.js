@@ -1,12 +1,17 @@
-import { Box, Toolbar } from '@mui/material'
+
 import React from 'react'
-import Navbar from '../Dashboard/Navbar'
+import Navbar from '../components/dashboard/navbar/navbar'
+import Head from '../components/dashboard/section/head'
+
+
 
 const Landingpage = () => {
   return (
-    <Box>
+    <>
        <Navbar/> 
-    </Box>
+       <Head/>
+    </>
+    
   )
 }
 
