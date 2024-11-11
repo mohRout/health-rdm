@@ -1,6 +1,7 @@
 import { Box } from '@mui/material'
 import React from 'react'
-import Landingpage from './Pages/Landingpage'
+import Landingpage from './rdm/pages/Landingpage'
+
 
 const App = () => {
   return (
@@ -11,3 +12,4 @@ const App = () => {
 }
 
 export default App
+
