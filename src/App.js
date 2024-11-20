@@ -1,19 +1,15 @@
+import { Box } from '@mui/material'
+import React from 'react'
+import Landingpage from './rdm/pages/Landingpage'
 
-import logo from './logo.png';
-import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        
-      </header>
-    </div>
-  );
+    <Box>
+    <Landingpage/>
+    </Box>
+  )
 }
 
-export default App;
+export default App
+
